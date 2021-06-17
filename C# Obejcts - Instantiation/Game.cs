@@ -1,5 +1,6 @@
 using System;
 
+
 namespace Defense
 {
     class Game
@@ -11,9 +12,9 @@ namespace Defense
             {
                 MapLocation mapLocation = new MapLocation(20, 20, map);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("That map lcoation is not on the map");
+                Console.WriteLine(ex);
 
                 }
 
