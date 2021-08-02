@@ -1,0 +1,10 @@
+namespace Defense
+
+{
+class Tower
+{
+  
+
+}
+
+}
